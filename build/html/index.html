@@ -34,7 +34,8 @@
   <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="search.html" /> 
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Compiler Directives" href="Marlin/marlin.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -78,12 +79,15 @@
               
             
             
-              <!-- Local TOC -->
-              <div class="local-toc"><ul>
-<li><a class="reference internal" href="#">Welcome to mydocs’s documentation!</a></li>
-<li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Marlin/marlin.html">Compiler Directives</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Marlin/marlin.html#sources-of-documentation">Sources of Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Marlin/marlin.html#before-you-begin">Before You Begin</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Marlin/marlin.html#configuration-h"><code class="docutils literal notranslate"><span class="pre">Configuration.h</span></code></a></li>
+<li class="toctree-l1"><a class="reference internal" href="Marlin/marlin.html#configuration-adv-h"><code class="docutils literal notranslate"><span class="pre">Configuration_adv.h</span></code></a></li>
 </ul>
-</div>
+
             
           
         </div>
@@ -149,6 +153,83 @@
   <div class="section" id="welcome-to-mydocs-s-documentation">
 <h1>Welcome to mydocs’s documentation!<a class="headerlink" href="#welcome-to-mydocs-s-documentation" title="Permalink to this headline">¶</a></h1>
 <div class="toctree-wrapper compound">
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Marlin/marlin.html">Compiler Directives</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Marlin/marlin.html#sources-of-documentation">Sources of Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Marlin/marlin.html#before-you-begin">Before You Begin</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Marlin/marlin.html#configuration-h"><code class="docutils literal notranslate"><span class="pre">Configuration.h</span></code></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#configuration-versioning">Configuration versioning</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#firmware-info">Firmware Info</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#hardware-info">Hardware Info</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#extruder-info">Extruder Info</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#power-supply">Power Supply</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#thermal-settings">Thermal Settings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#kinematics">Kinematics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#endstops">Endstops</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#movement">Movement</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#z-probe-options">Z Probe Options</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#id1">Stepper Drivers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#homing-and-bounds">Homing and Bounds</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#filament-runout-sensor">Filament Runout Sensor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#bed-leveling">Bed Leveling</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#homing-options">Homing Options</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#additonal-features">Additonal Features</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#lcd-language">LCD Language</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#lcd-type">LCD Type</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#sd-card">SD Card</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#encoder">Encoder</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#speaker">Speaker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#lcd-controller">LCD Controller</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#extra-features">Extra Features</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Marlin/marlin.html#configuration-adv-h"><code class="docutils literal notranslate"><span class="pre">Configuration_adv.h</span></code></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#temperature-options">Temperature Options</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#cooling-fans">Cooling Fans</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#case-light">Case Light</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#endstops-always-on">Endstops Always On</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#z-late-enable">Z Late Enable</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#external-closed-loop-controller">External Closed Loop Controller</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#dual-steppers-dual-endstops">Dual Steppers / Dual Endstops</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#dual-x-carriage">Dual X Carriage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#solenoid">Solenoid</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#homing">Homing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#id3">BLTouch</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#z-steppers-auto-alignment">Z Steppers Auto-Alignment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#todo-options">TODO Options</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#sd-card-extras">SD Card Extras</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#graphical-display-extras">Graphical Display Extras</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#watchdog">Watchdog</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#babystepping">Babystepping</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#linear-advance">Linear Advance</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#delta-scara-limits">Delta / Scara Limits</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#custom-mesh-bounds">Custom Mesh Bounds</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#enhanced-g-code">Enhanced G-code</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#minimum-steps-per-segment">Minimum Steps Per Segment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#minimum-stepper-pulse">Minimum Stepper Pulse</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#parallel-heaters">Parallel Heaters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#buffer-hosts">Buffer / Hosts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#firmware-retraction">Firmware Retraction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#extra-fan-speed">Extra Fan Speed</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#advanced-pause">Advanced Pause</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#id4">Stepper Drivers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#experimental-i2c-bus">Experimental i2c Bus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#spindle-laser">Spindle / Laser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#filament-width-sensor">Filament Width Sensor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#cnc-coordinate-systems">CNC Coordinate Systems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#pins-debugging">Pins Debugging</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#temperature-auto-report">Temperature Auto-Report</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#extended-capabilities-report">Extended Capabilities Report</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#volumetric-mode-default">Volumetric Mode Default</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#no-workspace-offsets">No Workspace Offsets</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#proportional-font-ratio">Proportional Font Ratio</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#faster-g-code-parser">Faster G-code Parser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#even-more-options">Even More Options…</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Marlin/marlin.html#prusa-mmu2-advanced-settings">Prusa MMU2 advanced settings</a></li>
+</ul>
+</li>
+</ul>
 </div>
 </div>
 <div class="section" id="indices-and-tables">
@@ -165,6 +246,13 @@
            
           </div>
           <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="Marlin/marlin.html" class="btn btn-neutral float-right" title="Compiler Directives" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+    </div>
   
 
   <hr/>

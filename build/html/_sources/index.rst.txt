@@ -7,8 +7,10 @@ Welcome to mydocs's documentation!
 ==================================
 
 .. toctree::
+   :maxdepth: 2
    :caption: Contents:
 
+   Marlin/marlin
 
 
 Indices and tables
