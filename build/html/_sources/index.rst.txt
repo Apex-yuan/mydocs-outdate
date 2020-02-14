@@ -10,7 +10,7 @@ Welcome to mydocs's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   Marlin/marlin
+   Marlin/Marlin
 
 
 Indices and tables
